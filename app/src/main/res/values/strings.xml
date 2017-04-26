@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FunnyTime</string>
+    <string name="btn_game1">Times Up</string>
 </resources>
