@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.dhtech.funnytime.com.timesup.TimesUpSetup;
+
 public class MainActivity extends AppCompatActivity {
     Intent intent;
 
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button game1 = (Button) findViewById(R.id.game1);
-        intent = new Intent(MainActivity.this, TimesUp.class);
+        intent = new Intent(MainActivity.this, TimesUpSetup.class);
 
         game1.setOnClickListener(new View.OnClickListener() {
             @Override
