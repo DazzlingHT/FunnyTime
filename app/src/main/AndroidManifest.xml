@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TimesUp"></activity>
+        <activity android:name=".com.timesup.TimesUpSetup" />
+        <activity android:name=".com.timesup.TimesUpInit"></activity>
     </application>
 
 </manifest>
